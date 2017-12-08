@@ -1,5 +1,5 @@
 # Summary
 
 * [Introducció](README.md)
-* [First Chapter](chapter1.md)
+* [Instalació](chapter1.md)
 
