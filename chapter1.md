@@ -1,8 +1,8 @@
 ## Instal·lació
 
 Lo primer que necessitaràs per instal·lar Rust es tenir connexió a internet per poder descarregar-lo.
- 
-Instal·lacio a Linux o al Mac
+
+Instal·lacio a Linux o al Mac  
 Si tu estàs utilitzant Linux o Mac tot el que necessites es obrir la consola i escriure això:
 
 ```
@@ -42,11 +42,9 @@ Current installation options:
 1) Proceed with installation (default)
 2) Customize installation
 3) Cancel installation
-
 ```
 
 Es confirma que es vol prosseguir la instal·lació. En el meu cas les rutes que proposa em semblen correctes així que polsaré 1.
-
 
 ```sh
 info: syncing channel updates for 'stable-x86_64-unknown-linux-gnu'
@@ -72,16 +70,16 @@ To get started you need Cargo's bin directory ($HOME/.cargo/bin) in your PATH
 environment variable. Next time you log in this will be done automatically.
 
 To configure your current shell run source $HOME/.cargo/env
-josep@rs:~$ 
+josep@rs:~$
 ```
 
-Ja ha acabat! Un cop acabat, t’informa que s’ha de configurar el PATH. Nomes has d’executar la comanda que et diu el missatge de confirmació:
+Ja ha acabat! Alerta t’informa que s’ha de configurar el PATH. Nomes has d’executar la comanda que et diu el missatge de confirmació:
 
 ```sh
 source $HOME/.cargo/env
 ```
 
-Aquest s’encarregara d’agregar al teu document “~/.profile” el PATH que correspon a la carpeta dels binaris on s’ha insta-lat.
+Aquest s’encarregara d’agregar al teu document “~/.profile” el PATH que correspon a la carpeta dels binaris on s’ha insta-lat.  
 Per comprovar els resultats:
 
 ```sh
@@ -90,12 +88,10 @@ cargo 0.23.0 (61fa02415 2017-11-22)
 josep@rs:~$
 ```
 
-### Instal·lació des-de sistemes de paquets
- 
-Per descomptat també hi ha paquets per Debian i altres distribucions. En aquest sentit jo sempre intento escollir les eines que et dona la teva distribució. 
-La elecció es basa en la dependència de versions que pugui tenir i en el coneixement de les versions. Solc confiar en el Cargo, que es sistema de versions que utilitza rust per actualitzar i gestionar el seu compilador i paquets.
-També dependrà del tipus d’entorn on s’instal·li ja que a vegades certes distribucions poden donar un suport mes elevat de seguretat i estabilitat per sobre de les novetats del llenguatge.
+### Instal·lació des-de sistemes de paquets
+
+Per descomptat també hi ha paquets per Debian i altres distribucions. En aquest sentit jo sempre intento escollir les eines que et dona la teva distribució.   
+La elecció es basa en la dependència de versions que pugui tenir i en el coneixement de les versions. Solc confiar en el Cargo, que es sistema de versions que utilitza rust per actualitzar i gestionar el seu compilador i paquets.  
+També dependrà del tipus d’entorn on s’instal·li ja que a vegades certes distribucions poden donar un suport mes elevat de seguretat i estabilitat per sobre de les novetats del llenguatge.  
 Si ets un programador altament actiu amb curiositat per rust segur que estaràs alerta de les novetats que incorpora cada versió del compilador i sempre usaràs mes actual. Tot es una experiència.
-
-
 
