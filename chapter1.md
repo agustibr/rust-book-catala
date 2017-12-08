@@ -11,7 +11,7 @@ curl https://sh.rustup.rs -sSf | sh
 
 #### Exemple del procediment:
 
-```sh
+```
 josep@rs:~# curl https://sh.rustup.rs -sSf | sh
 info: downloading installer
 
@@ -46,7 +46,7 @@ Current installation options:
 
 Es confirma que es vol prosseguir la instal·lació. En el meu cas les rutes que proposa em semblen correctes així que polsaré 1.
 
-```sh
+```
 info: syncing channel updates for 'stable-x86_64-unknown-linux-gnu'
 info: latest update on 2017-11-23, rust version 1.22.1 (05e2e1c41 2017-11-22)
 info: downloading component 'rustc'
@@ -82,7 +82,7 @@ source $HOME/.cargo/env
 Aquest s’encarregara d’agregar al teu document “~/.profile” el PATH que correspon a la carpeta dels binaris on s’ha insta-lat.  
 Per comprovar els resultats:
 
-```sh
+```
 josep@rs:~$ cargo --version
 cargo 0.23.0 (61fa02415 2017-11-22)
 josep@rs:~$
