@@ -1,4 +1,6 @@
-# RUST el llenguatje de programacio
+# RUST el llenguatge de programaciò
 
-Ben
+Benvinguts a la introducciò del llibre de programaciò Rust en Català.
+
+
 
