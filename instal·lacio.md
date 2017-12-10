@@ -90,12 +90,24 @@ josep@rs:~$
 
 ### Instal·lació des-de sistemes de paquets
 
-Per descomptat també hi ha paquets per Debian i altres distribucions. En aquest sentit jo sempre intento escollir les eines que et dona la teva distribució.  
- 
-La elecció es basa en la dependència de versions que pugui tenir i en el coneixement de les versions. Solc confiar en el Cargo, que es sistema de versions que utilitza rust per actualitzar i gestionar el seu compilador i paquets.  
+Per descomptat també hi ha paquets per Debian i altres distribucions. En aquest sentit jo sempre intento escollir les eines que et dona la teva distribució.
+
+La elecció es basa en la dependència de versions que pugui tenir i en el coneixement de les versions. Solc confiar en el Cargo, que es sistema de versions que utilitza rust per actualitzar i gestionar el seu compilador i paquets.
 
 També dependrà del tipus d’entorn on s’instal·li ja que a vegades certes distribucions poden donar un suport mes elevat de seguretat i estabilitat per sobre de les novetats del llenguatge.
 
-Si ets un programador altament actiu amb curiositat per rust segur que estaràs alerta de les novetats que incorpora cada versió del compilador i sempre usaràs mes actual.
+Si ets un programador altament actiu amb curiositat per rust segur que estaràs alerta de les novetats que incorpora cada versió del compilador i sempre usaràs mes actual.  
 Prova diferents versions. Tot es una experiència.
+
+
+
+### Desinstal·lació:
+
+Si per instal·lar el rust feu us del sistema de paquets, recomano que utilitzeu la mateixa eina per desinstal·lar-lo. Per el contrari si utilitzeu el metode d’instalacio principal podeu desinstal·lar-lo amb aquesta comanda:
+
+```sh
+rustup self uninstall
+```
+
+
 
