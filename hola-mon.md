@@ -8,7 +8,7 @@ Agafem l’editor de codi que preferim i editarem el document ‘hola.rs’
 
 Al seu interior afegim:
 
-```rs
+```rust
 fn main() {
     println!("Hello, world!");
 }
