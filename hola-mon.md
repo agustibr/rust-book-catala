@@ -17,13 +17,13 @@ fn main() {
 Per compilar el nostre primer programa:
 
 ```sh
-rustc hola.rs
+josep@rs:~$ rustc hola.rs
 ```
 
 Obtindrem el binari que podrem executar:
 
 ```sh
-./hola
+josep@rs:~$ ./hola
 ```
 
 
