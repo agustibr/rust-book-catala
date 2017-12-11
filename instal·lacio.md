@@ -12,7 +12,7 @@ curl https://sh.rustup.rs -sSf | sh
 #### Exemple del procediment:
 
 ```
-josep@rs:~# curl https://sh.rustup.rs -sSf | sh
+josep@rs:~$ curl https://sh.rustup.rs -sSf | sh
 info: downloading installer
 
 Welcome to Rust!
@@ -98,8 +98,6 @@ També dependrà del tipus d’entorn on s’instal·li ja que a vegades certes 
 
 Si ets un programador altament actiu amb curiositat per rust segur que estaràs alerta de les novetats que incorpora cada versió del compilador i sempre usaràs mes actual.  
 Prova diferents versions. Tot es una experiència.
-
-
 
 ### Desinstal·lació:
 
