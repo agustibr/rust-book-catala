@@ -1,4 +1,4 @@
-Editor de codi
+## Editor de codi
 
 Aquesta es la llista que mes m’agrada d’editors. Avui en dia cualsevol editor de codi esta perfectament preparat per poder programar en el llenguatje rust. L’eleccio es molt personal i estic disposat a apuntar idees i suggeriments dels lectors a la llista:
 
