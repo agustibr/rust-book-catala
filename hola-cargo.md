@@ -61,8 +61,52 @@ authors = ["Josep Subils <js@js.gl>"]
 ```
 
 Els programadors solen referise a aquest document com el "**manifest**" i sol contenir tota la informació necessària per compilar el projecte.
-  
 
 
+### El codi
+Aquest es el contingut del document "src/main.rs":
 
+```rust
+fn main() {
+    println!("Hello, world!");
+}
+```
 
+### Compilar i crear un binari executable
+El Cargo ha generat un "Hello, world!" mínim per tu. Anem a compilar-lo:
+
+```sh
+cargo build
+```
+
+### Executar el binari
+Un cop rebuda la confirmació de compilació podem executar el binari resultant que actualment estarà localitzat al directori :
+
+```sh
+./target/debug/hola_mon
+```
+
+### Compilar i executar en un sol pas
+Nosaltres també podem usar "cargo run" per compilar i executar el programa en un sol pas. Si el programa ja estava compilat i no s'ha realitzat cap canvi, el llençara sense tornar a compilar-lo.
+
+```sh
+cargo run
+```
+
+### Estem preparats!
+
+Si tu estàs preparat per la primera versió de llançament projecte pots usar la següent comanda per poder compilar el projecte amb les funcions de optimitzacio al màxim:
+
+```sh
+cargo build --release
+```
+
+Aquest cop podrem localitzar el codi al directori al directori de llançament:
+
+```sh
+./target/release/hola_mon
+```
+
+```sh
+Hello, world!
+``
