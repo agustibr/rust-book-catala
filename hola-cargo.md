@@ -60,7 +60,7 @@ authors = ["Josep Subils <js@js.gl>"]
 [dependencies]
 ```
 
-Els programadors solen referise a aquest document com a **manifest** i sol contenir tota la informació necessària per compilar el projecte.
+Els programadors solen referise a aquest document com el "**manifest**" i sol contenir tota la informació necessària per compilar el projecte.
   
 
 
