@@ -2,7 +2,9 @@
 
 Lo primer que necessitaràs per instal·lar Rust es tenir connexió a internet per poder descarregar-lo.
 
-Instal·lacio a Linux o al Mac  
+#### Instal·lacio a Linux o al Mac:
+
+  
 Si tu estàs utilitzant Linux o Mac tot el que necessites es obrir la consola i escriure això:
 
 ```

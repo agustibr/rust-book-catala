@@ -4,4 +4,5 @@
 * [Instal·lació](instal·lacio.md)
 * [Editor de codi](editor-de-codi.md)
 * [Hola Món](hola-mon.md)
+* [Sobre Cargo i crates.io](hola-cargo.md)
 
