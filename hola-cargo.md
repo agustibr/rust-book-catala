@@ -1,4 +1,4 @@
-## Sobre Cargo i crates.io
+## Que és Cargo?
 
 La pagina web de Crates es el repositori que es publicaran els paquets/llibreries/projectes de Rust. Cargo es una eina per gestionar els teus projectes i els paquets de crates.io
 
