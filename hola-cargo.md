@@ -66,7 +66,7 @@ Els programadors solen referise a aquest document com el "**manifest**" i sol co
 ### El codi
 Aquest es el contingut del document "src/main.rs":
 
-```rust
+```rs
 fn main() {
     println!("Hello, world!");
 }
