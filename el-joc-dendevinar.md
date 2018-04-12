@@ -35,7 +35,7 @@ fn main() {
 Veiem què ens ha compilat Cargo:
 ```sh
 $ cargo build
-compiling guessing_game v0.1.0 (file:///home/you/projects/guessing_game)
+  compiling guessing_ (file:///home/you/projects/guessing_game)
 ```
 
 Excel·lent! Torna a obrir src/main.rs. escriurem tot el codi en aquest firxer. abans de moure'ns, deixa que t'ensenyi un comandament de Cargo més: run. Cargo run és com cargo build, però també engega l'executable produit.
@@ -43,8 +43,8 @@ Proba:
 
 ```sh
 $ cargo run
-compiling quessing_game v0.1.0 (file///home/you/projects/guessing_game)
-Running 'target/debug/guessing_game' Hello, world!
+  compiling quessing_ (file///home/you/projects/guessing_game)
+    Running 'target/debug/guessing_game' Hello, world!
 ```
 
 Bona aquesta! El comandament run va molt bé quan necessites iterar ràpidament en un projecte. El nostre joc és com un projecte. Necessitem probar ràpidament cada iteració abans de moure'ns a la següent.
@@ -52,12 +52,13 @@ Processant un intent
 El primer que hem de fer pel nostre jos d'endevinar és permetre que el nostre jugador faci un intent. Posem-ho en el src/main.rs.
 
 ```rust
-use std::io; fn main() {
-println!("Endevina el nombre!");
-println!("Entra un nombre.");
-let mut guess = String::new();
-io::stdin().read_line(&mut guess) .expect("Ha llegit la línia malament");
-   println!("Has probat: {}", guess);
+use std::io;
+fn main() {
+  println!("Endevina el nombre!");
+  println!("Entra un nombre.");
+  let mut guess = String::new();
+  io::stdin().read_line(&mut guess) .expect("Ha llegit la línia malament");
+  println!("Has probat: {}", guess);
  }
 ```
 
