@@ -43,7 +43,7 @@ Proba:
 $ cargo run
 compiling quessing_game v0.1.0 (file///home/you/projects/guessing_game)
 Running 'target/debug/guessing_game' Hello, world!
-``
+```
 
 Bona aquesta! El comandament run va molt bé quan necessites iterar ràpidament en un projecte. El nostre joc és com un projecte. Necessitem probar ràpidament cada iteració abans de moure'ns a la següent.
 Processant un intent
