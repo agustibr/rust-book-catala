@@ -5,4 +5,5 @@
 * [Editor de codi](editor-de-codi.md)
 * [Hola Món](hola-mon.md)
 * [Que és Cargo?](hola-cargo.md)
+* [El joc d'endevinar](el-joc-dendevinar.md)
 
