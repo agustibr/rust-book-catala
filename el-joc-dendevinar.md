@@ -106,11 +106,12 @@ La sintaxi **::new()** utilitza :: perquè és una "funció associada" d'un t
 continuem:
 
 ```rust
-io::stdin().read_line(&mut guess) .expect("Error al llegir la linia");
+io::stdin().read_line(&mut guess)
+  .expect("Error al llegir la linia");
 ```
 
 Aquí hi ha molt més! Anem pas a pas. La primera línia té dues parts. Veiem la primera:
 
 ```rust
 io::stdin()
-``
+```
