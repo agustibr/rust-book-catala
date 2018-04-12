@@ -24,7 +24,7 @@ version = "0.1.0"
 authors = ["el teu nom <you@example.com>"]
 ```
 
-Cargo pren aquesta informació del teu entorn. Si no és correcta aleshores canvia-ho. Finalment, Cargo ha general un 'hello_world' fer a nosaltres. Revisa src/main.rs:c
+Cargo pren aquesta informació del teu entorn. Si no és correcta aleshores canvia-ho. Finalment, Cargo ha general un 'hello_world' fer a nosaltres. Revisa src/main.rs:
 
 ```rust
 fn main() {
