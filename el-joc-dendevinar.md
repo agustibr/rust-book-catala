@@ -28,7 +28,7 @@ Cargo pren aquesta informació del teu entorn. Si no és correcta aleshores ca
 
 ```rust
 fn main() {
-  println!("Hello, world!);
+  println!("Hello, world!");
 }
 ```
 
