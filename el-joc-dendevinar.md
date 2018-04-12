@@ -2,7 +2,9 @@
 
 ###Aprenem alguna cosa de Rust!
 En el nostre primer projecte implementarem un clàssic problema de programació per a principiants: el joc d'endevinar un nombre. Funciona així: el nostre programa generarà un nombre enter a l'atzar entre 1 i 100. Després ens demanarà que entrem una suposició i ens dirà si és massa gran o massa petit. Un cop haguem encertat ens felicitarà. Sona bé, no? Al llarg de l'exercici aprendrem una mica de Rust. Al capítol següent, "Sintaxi i semàntica", ens sumergirem en les profunditats de cada part.
-Preparant l'entorn
+
+
+###Preparant l'entorn
 Preparem un projecte nou. Anem al directori dels nostres projectes. Recorda com hem creat l'structura del nostre directori i un cargo.toml per al hello_world? Cargo té un comandament que ho fa per nosaltres. Donem- li una ullada:
 
 ```sh
@@ -58,6 +60,7 @@ io::stdin().read_line(&mut guess) .expect("Ha llegit la línia malament");
    println!("Has probat: {}", guess);
  }
 ```
+
 Aquí hi ha moltes coses! Anem pas a pas.
 
 ```rust
