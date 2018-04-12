@@ -13,7 +13,9 @@ Això és el que més el diferencia d’altres llenguatges de programació. Norm
 
 També incorpora incrustació d’altres idiomes de baix nivell i es pot usar per crear controladors de dispositius i sistemes operatius. És un llenguatge ideal per a crear servidors i aplicacions web per la seva facilitat i velocitat.
 
-Aquesta traducció ha estat escrita per [Josep Subils](http://js.gl).
+Aquesta traducció ha estat escrita per:
+- [Josep Subils](http://js.gl)
+- [Albert Maurici](https://www.linkedin.com/in/albert-maurici)
 
 El contingut del llibre està parcialment extret de documentació lliure:
 
